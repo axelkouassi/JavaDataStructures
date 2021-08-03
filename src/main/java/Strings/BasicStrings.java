@@ -8,7 +8,8 @@ public class BasicStrings {
     }
 
     public char getChar(String string, int index) {
-        return ' ';
+
+        return string.charAt(index);
     }
 
     public String iCantSee(String string) {
