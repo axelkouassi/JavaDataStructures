@@ -13,7 +13,11 @@ public class BasicStrings {
     }
 
     public String iCantSee(String string) {
-        return null;
+        String result = "";
+        for(int i = 0; i <string.length(); i++){
+            result += " ";
+        }
+        return result;
     }
 
     public String loudAndClear(String string) {
