@@ -3,7 +3,8 @@ package Strings;
 public class BasicStrings {
 
     public String flipConcat(String string1, String string2) {
-        return null;
+
+        return string2 + string1;
     }
 
     public char getChar(String string, int index) {
