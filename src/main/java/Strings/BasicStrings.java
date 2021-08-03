@@ -21,7 +21,8 @@ public class BasicStrings {
     }
 
     public String loudAndClear(String string) {
-        return null;
+
+        return string.toUpperCase();
     }
 
     public String reverseCase(String string) {
